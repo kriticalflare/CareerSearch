@@ -20,7 +20,7 @@ class JobsController extends Controller
 
     public function listings()
     {
-        $jobs = Joblisting::latest()->paginate(10);
+        $jobs = Joblisting::latest()->paginate(2);
         return view('jobs.listings', [
             'jobs' => $jobs
         ]);
@@ -34,11 +34,16 @@ class JobsController extends Controller
         
         $this->validate($request, [
             'category' => ['required', 'string', 'max:255'],
+            'company_logo' => ['required', 'url'],
             'company_name' => ['required', 'string', 'max:255'],
             'description' => ['required', 'string', 'max:64000'],
             'requirements' => ['required', 'string', 'max:64000'],
             'location' => ['required', 'string', 'max:255'],
-            'apply_link' =>  ['required', 'url', 'max:255']
+            'apply_link' =>  ['required', 'url', 'max:255'],
+            'duration' => ['required', 'string', 'max:255'],
+            'apply_by' => ['required', 'date'],
+            'start_date' => ['required', 'date', 'after_or_equal:apply_by'],
+            'stipend' => ['required','integer', 'min:1']
         ]);
         
     
@@ -48,7 +53,12 @@ class JobsController extends Controller
             'description',
             'requirements', 
             'location',
-            'apply_link'
+            'apply_link',
+            'start_date',
+            'apply_by',
+            'duration',
+            'company_logo',
+            'stipend'
         ));
 
         return back();

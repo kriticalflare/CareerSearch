@@ -15,6 +15,11 @@ class Joblisting extends Model
         'description',
         'requirements',
         'location',
-        'apply_link'
+        'apply_link',
+        'start_date',
+        'apply_by',
+        'duration',
+        'company_logo',
+        'stipend'
     ];
 }
