@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\JobsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/listings', [JobsController::class, 'listings'])->name('listings');
+
+Route::get('/create', [JobsController::class, 'create_index'])->name('create');
+
+Route::post('/create', [JobsController::class, 'create_listing']);
