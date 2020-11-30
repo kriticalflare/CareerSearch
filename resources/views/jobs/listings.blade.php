@@ -58,7 +58,11 @@
         @endforeach
               {{ $jobs->links()}}
     @else 
-        <p> No jobs </p>
+        <div class="d-flex flex-column w-100 justify-content-center align-items-center" style="height:75vh;">
+            <img src="{{ URL::asset('images/void.svg') }}" alt="" srcset="" height="250px">
+            <h2 class="mt-3 d-lg-flex d-none ">Don't stare into the void too much </h2>
+            <h4 class="mt-3 d-lg-none d-flex">Don't stare into the void too much</h4>
+        </div>
     @endif
     </div>
 @endsection

@@ -63,7 +63,7 @@
         @endforeach
               {{ $jobs->links()}}
     @else 
-        <div class="d-flex flex-column w-100 vh-100 justify-content-center align-items-center">
+        <div class="d-flex flex-column w-100 justify-content-center align-items-center" style="height:75vh;">
             <img src="{{ URL::asset('images/no_listing.svg') }}" alt="" srcset="" height="250px">
             <h2 class="mt-3 d-lg-flex d-none ">No Job Listings....Yet</h2>
             <h4 class="mt-3 d-lg-none d-flex">No Job Listings....Yet</h4>
