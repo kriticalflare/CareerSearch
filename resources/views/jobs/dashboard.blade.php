@@ -5,7 +5,7 @@
         <h1>Your Job Listings</h1>
         @if ($jobs->count())
             @foreach ($jobs as $job)
-            <div class="card mb-2">
+            <div class="card mb-4 shadow">
                 <div class="card-body ">
                   <div class="row no-gutters">
                     <div class="col-lg-10 col-12 order-lg-1 order-2">
@@ -56,7 +56,10 @@
                         @method('DELETE')
                         <button class="btn font-weight-bold text-danger" type="submit">Delete Listing</button>
                      </form>
-                     <b><p class="btn font-weight-bold text-primary mb-0">View Details</p></b>
+                     <form action="{{ route('details', $job) }}" method="GET">
+                         @csrf
+                         <button class="btn font-weight-bold text-primary mb-0" type="submit">View Details</button>
+                     </form>
                   </div>
                 </div>
               </div>

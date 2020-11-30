@@ -26,6 +26,12 @@ class JobsController extends Controller
         ]);
     }
 
+    public function view_details(Joblisting $jobDetail)
+    {
+        dd($jobDetail->company_name);
+       return view('home');
+    }
+
     public function create_listing(Request $request)
     {
 

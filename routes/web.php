@@ -24,6 +24,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
 Route::delete('/dashboard/{job}', [DashboardController::class, 'delete_listing'])->name('dashboard.delete');
 
+Route::get('/jobs/{jobDetail}', [JobsController::class, 'view_details'])->name('details');
+
 Route::get('/create', [JobsController::class, 'create_index'])->name('create');
 
 Route::post('/create', [JobsController::class, 'create_listing']);
