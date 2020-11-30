@@ -54,7 +54,7 @@
                      <form action="{{ route('dashboard.delete', $job) }}" method="post">
                         @csrf
                         @method('DELETE')
-                        <button class="btn font-weight-bold" type="submit">Delete Listing</button>
+                        <button class="btn font-weight-bold text-danger" type="submit">Delete Listing</button>
                      </form>
                      <b><p class="btn font-weight-bold text-primary mb-0">View Details</p></b>
                   </div>
