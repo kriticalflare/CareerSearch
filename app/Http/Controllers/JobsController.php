@@ -28,8 +28,9 @@ class JobsController extends Controller
 
     public function view_details(Joblisting $jobDetail)
     {
-        dd($jobDetail->company_name);
-       return view('home');
+       return view('jobs.details', [
+           'job' => $jobDetail
+       ]);
     }
 
     public function create_listing(Request $request)
