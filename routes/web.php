@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\JobsController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,15 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [JobsController::class, 'listings']);
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/listings', [JobsController::class, 'listings'])->name('listings');
+Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+Route::delete('/dashboard/{job}', [DashboardController::class, 'delete_listing'])->name('dashboard.delete');
 
 Route::get('/create', [JobsController::class, 'create_index'])->name('create');
 
