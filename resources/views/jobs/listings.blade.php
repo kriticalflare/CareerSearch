@@ -37,14 +37,14 @@
                         </div>
                         <div class="col-lg-3 col-6">
                             <div class="row no-gutters">
-                                <img src="{{ URL::asset('images/play-button.png') }}" class="mr-1" style="margin-top: 2.5px" alt="location image" height="16px">
+                                <img src="{{ URL::asset('images/money.png') }}" class="mr-1" style="margin-top: 2.5px" alt="location image" height="16px">
                                 <p style="color:grey">STIPEND</p>
                             </div>
                             <p> ₹ {{ $job->stipend}}</p>
                         </div>
                         <div class="col-lg-3  col-6">
                             <div class="row no-gutters">
-                                <img src="{{ URL::asset('images/play-button.png') }}" class="mr-1" style="margin-top: 2.5px" alt="location image" height="16px">
+                                <img src="{{ URL::asset('images/sand-clock.png') }}" class="mr-1" style="margin-top: 2.5px" alt="location image" height="16px">
                                 <p style="color:grey">APPLY BY</p>
                             </div>
                             <p> {{  \Carbon\Carbon::parse($job->apply_by)->format('j F, Y') }}</p>
