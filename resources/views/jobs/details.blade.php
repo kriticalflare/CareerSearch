@@ -64,7 +64,9 @@
                         <p>{{ $job->description }}</p>
                     </div>
                     <div class="row no-gutters justify-content-center">
-                        <button class="btn btn-primary">Apply Now</button>
+                        <form action="{{ $job->apply_link }}">
+                            <button class="btn btn-primary">Apply Now</button>
+                        </form>
                     </div>
             </div>
         </div>
