@@ -61,7 +61,7 @@
                         <h5><b>Who can apply</b></h5>
                     </div>
                     <div>
-                        <p>{{ $job->description }}</p>
+                        <p>{{ $job->requirements }}</p>
                     </div>
                     <div class="row no-gutters justify-content-center">
                         <form action="{{ $job->apply_link }}">
