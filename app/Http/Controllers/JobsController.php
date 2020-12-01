@@ -20,7 +20,7 @@ class JobsController extends Controller
 
     public function listings()
     {
-        $jobs = Joblisting::latest()->paginate(2);
+        $jobs = Joblisting::latest()->paginate(3);
         return view('jobs.listings', [
             'jobs' => $jobs
         ]);
