@@ -14,7 +14,8 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.1"
+        "laravel/ui": "^3.1",
+        "silviolleite/laravelpwa": "^2.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
