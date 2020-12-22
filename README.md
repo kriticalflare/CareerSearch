@@ -1,61 +1,39 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# CareerSearch
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+A jobs/internship portal made for Internet Programming subject (SEM V). It's  a platform for both people who need a job and people who have a vacancy at their company.
+The UI is interactive and easy to navigate, providing a seamless experience to the users.
+
+## Screenshots
+
+<p float="left">
+<img src="https://user-images.githubusercontent.com/42350771/102877182-5b121300-446c-11eb-9eca-537aa90a9064.png" width="50%"/>
+<img src="https://user-images.githubusercontent.com/42350771/102877196-5f3e3080-446c-11eb-923a-df77a01c4065.png" width="50%"/>
+<img src="https://user-images.githubusercontent.com/42350771/102877210-649b7b00-446c-11eb-877d-9ceedc78a94c.png" width="50%"/>
+<img src="https://user-images.githubusercontent.com/42350771/102877225-69f8c580-446c-11eb-8bc1-80f0855185ff.png" width="50%"/>
 </p>
 
-## About Laravel
+<p float="left">
+<img src="https://user-images.githubusercontent.com/42350771/102877670-218dd780-446d-11eb-87c6-8be716f863ea.png" width="50%"/>
+<img src="https://user-images.githubusercontent.com/42350771/102877677-2488c800-446d-11eb-904b-15541fd2a9be.png" width="50%"/>
+<img src="https://user-images.githubusercontent.com/42350771/102877685-26eb2200-446d-11eb-89f0-94d1f25c5242.png" width="50%"/>
+<img src="https://user-images.githubusercontent.com/42350771/102877694-29e61280-446d-11eb-95fd-5025ea5c306f.png" width="50%"/>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p float="left">
+<img src="https://user-images.githubusercontent.com/42350771/102877979-93662100-446d-11eb-89d3-aee4b6419e21.png" width="50%"/>
+<img src="https://user-images.githubusercontent.com/42350771/102878078-b8f32a80-446d-11eb-9271-98b7df25edb2.png" width="50%"/>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Built With 🛠
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- [PHP](https://www.php.net/) 
+- [Laravel](https://laravel.com/)
+- [Bootstrap](https://getbootstrap.com/) 
+- [MySQL](https://www.mysql.com/) 
 
-## Learning Laravel
+## Architecture
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![](https://user-images.githubusercontent.com/42350771/102877017-138b8700-446c-11eb-9c97-645d02265f67.png)
 
 ## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The project is licensed under [MIT License](https://opensource.org/licenses/MIT)
